@@ -1,8 +1,8 @@
-cmake_minimum_required(VERSION 3.26)
-project(Week7)
+cmake_minimum_required(VERSION 3.29)
+project(CppHashtable)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Week7 main.cpp
-        Hashtable.cpp
-        Hashtable.h)
+add_executable(CppHashtable main.cpp
+        MyHashtable.cpp
+        MyHashtable.h)
